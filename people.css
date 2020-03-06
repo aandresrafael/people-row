@@ -1,0 +1,265 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: auto;
+  width: 60%;
+  max-width: 811px;
+  background: #FFFFFF;
+  border: 1px solid #E1E3EA;
+  min-height: 313px;
+}
+
+.row-content {
+  display: flex;
+  border: 1px solid #E1E3EA;
+  margin: 30px;
+  min-height: 252px;
+  display: flex;
+}
+
+.person-profile {
+  min-width: 240px;
+  background: #FBFBFD;
+  border-right: 1px solid #E1E3EA;
+}
+
+.person-box {
+  display: flex;
+}
+
+.close-icon {
+  color:#424242;
+  opacity: 0.6;
+  height: 10px;
+  padding: 10px 10px 0 0;
+}
+
+.person-info {
+  width: 192px;
+  height: 185px;
+  margin: 16px 0  0 25px;
+  text-align: center;
+}
+
+.progress-inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+  background-color: #f5f5f5;
+  border-radius: 100px;
+  width: 90px;
+  height: 90px;
+}
+.progress-circle-trail {
+  stroke: #E9EAF0;
+}
+.progress-circle-path {
+  stroke: #92C0E8;
+}
+
+.progress-circle .progress-inner {
+  position: relative;
+  line-height: 1;
+  background-color: transparent;
+}
+.progress-circle .progress-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  transform: translate(-50%, -50%);
+}
+
+.avatar-circle {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+
+.percentage-text {
+  color: #94C1E6;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
+.name {
+  color: #006FBF;
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 7px;
+  display: flex;
+  justify-content: center;
+}
+
+.name img {
+  height: 16px;
+  width: 16px;
+  margin-top: 4px;
+  padding-left: 3px;
+}
+
+.location {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.description {
+  font-style: italic;
+  color: rgba(25, 25, 25, 1);
+  font-size: 11px;
+  padding-top: 7px;
+}
+
+.controls {
+  background-color: #006FBF;
+  display: flex;
+  height: 36px;
+  margin-top: 15px;
+  opacity: 0.4;
+}
+
+.controls .button {
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-size: 12px;
+  width: 120px;
+  border-right: 1px solid rgba(225, 227, 235, 1);
+  display: flex;
+  justify-content: center;
+}
+
+.controls .button div {
+  padding-top: 10px;
+}
+
+.controls .button img {
+  color: rgba(225, 227, 235, 1);
+  padding-right: 4px;
+}
+
+.controls .shortlist {
+  border-right: none;
+}
+
+.detail {
+  padding: 30px 17px 0 26px;
+  width: 100%;
+}
+
+.detail .row {
+  padding-top: 9px;
+  border-bottom:  1px solid rgba(225, 227, 234, 1);
+}
+
+.detail .row .info {
+  display: flex;
+
+}
+
+.detail .row .info .title,
+.detail .row .info .year{
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 14px;
+}
+
+.detail .row .info .program {
+  color: rgba(0, 114, 188, 1);
+  font-size: 14px;
+}
+
+.detail .row .info .year {
+  margin-left: auto;
+}
+
+.detail .row .extra {
+  display: flex;
+  padding: 4px 0 7px 0;
+}
+
+.detail .row .extra .text {
+  color: rgba(117, 117, 117, 1);
+  font-size: 12px;
+}
+
+.detail .footer {
+  display: flex;
+}
+
+.connections {
+  color: rgba(0, 111, 191, 1);
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  display: flex;
+}
+.connections span {
+  padding: 8px 13px 0 0;
+}
+
+.connections .item {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: -5px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  background-color: rgba(0, 114, 188, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 10px;
+}
+
+.connections .item .number {
+  text-align: center;
+  padding-top: 7px;
+}
+
+.detail .footer .credits {
+  margin-left: auto;
+  color: rgba(0, 111, 191, 1);
+  font-size: 12px;
+  padding-top: 10px;
+  display: flex;
+}
+
+.detail .footer .credits span {
+  padding: 8px 7px 0 0;
+}
+
+.detail .footer .credits .number {
+  background: rgba(0, 114, 188, 1);
+  border-radius: 12px;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 1);
+  font-size: 10px;
+  width: 20px;
+  height: 12px;
+  text-align: center;
+  padding-top: 2px;
+  margin-top: 8px;
+}
+
+.right-text {
+  margin-left: auto;
+}
